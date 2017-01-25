@@ -1,0 +1,49 @@
+/*
+ * Stylus Materialize -- Material Design Typography Styles
+ * src: https://material.io/guidelines/style/icons.html
+ */
+
+
+/*
+ * Import the Material Icons font
+ * icon reference: https://material.io/icons/
+ *
+ * usage:
+ *  <i class="material-icons">face</i>
+ *
+ */
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
+
+
+ // For sizing the icons. 24px is the default.
+
+.material-icons.md-18
+    font-size 18px
+
+.material-icons.md-24
+    font-size 24px
+
+.material-icons.md-36
+    font-size 36px
+
+.material-icons.md-48
+    font-size 48px
+
+
+ // For white icons on a dark background
+
+.material-icons.md-light
+    color $light-icons['active']
+
+.material-icons.md-light-inactive
+    color $light-icons['inactive']
+
+
+ // For dark icons on a white background
+
+.material-icons.md-dark
+    color $red['active']
+
+.material-icons.md-dark-inactive
+    color $dark-icons['inactive']

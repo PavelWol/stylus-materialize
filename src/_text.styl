@@ -1,0 +1,44 @@
+/*
+ * Stylus Materialize -- Material Design Text & Icon Opacity
+ * src: https://material.google.com/style/color.html#color-color-schemes
+ * see section on: "Text and background colors"
+ *
+ * usage:
+ *  .foo
+ *      color: $light-text['primary']
+ *
+ * tip: include the colon or in some cases Stylus won't resolve the hash
+ *
+ */
+
+$light-text = {
+    'color': $white,
+    'primary': alpha($white, 1.00),
+    'secondary': alpha($white, 0.70),
+    'disabled': alpha($white, 0.50),
+    'hints': alpha($white, 0.50),
+    'icons': alpha($white, 0.50),
+    'dividers': alpha($white, 0.12)
+}
+
+$dark-text = {
+    'color': $black,
+    'primary': alpha($black, 0.87),
+    'secondary': alpha($black, 0.54),
+    'disabled': alpha($black, 0.38),
+    'hints': alpha($black, 0.38),
+    'icons': alpha($black, 0.38),
+    'dividers': alpha($black, 0.12)
+}
+
+$light-icons = {
+    'color': $white,
+    'active': alpha($white, 1.00),
+    'inactive': alpha($white, 0.50)
+}
+
+$dark-icons = {
+    'color': $black,
+    'active': alpha($black, 0.54),
+    'inactive': alpha($black, 0.38)
+}
