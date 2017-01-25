@@ -9,4 +9,30 @@ Stylus Materialize is in early development. If you'd like to contribute, feel fr
 Installation will be through Node npm. Package TBA.
 
 ## Notes:
-Currently in early development. First code uploads coming soon. 
+Currently in early development. First code uploads coming soon.
+
+List of Material Design components / project tasks:
++ Colors
++ Badges
++ Buttons
++ Cards
++ Collapsible
++ Chips
++ Date Picker
++ Dropdown
++ Forms
++ Global
++ Grid
++ Navigation Bar
++ Side Navigation
++ Photo Slider
++ Spinners | Loaders
++ Tabs
++ Tables
++ Toasts
++ Typography
++ Footer
++ Flow Text
++ Collections
++ Progress Bar
++ Javascripts
