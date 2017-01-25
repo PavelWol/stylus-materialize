@@ -1,0 +1,26 @@
+{
+  "name": "stylus-materialize",
+  "version": "0.1.0",
+  "description": "A Material Design framework for Stylus CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjaoude/stylus-materialize.git"
+  },
+  "keywords": [
+    "Stylus",
+    "Material",
+    "Design",
+    "Framework",
+    "CSS"
+  ],
+  "author": "Christopher J.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjaoude/stylus-materialize/issues"
+  },
+  "homepage": "https://github.com/cjaoude/stylus-materialize#readme"
+}
